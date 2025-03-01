@@ -1,0 +1,119 @@
+/* General styling */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #2DD4BF; /* Light teal background */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+/* Close button */
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+/* Logo */
+.logo-container {
+    margin: 20px 0;
+}
+
+.logo-container img {
+    width: 100px;
+    height: auto;
+}
+
+/* App name */
+.app-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.input-container {
+    width: 90%;
+    max-width: 320px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 12px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    background: white;
+}
+
+.input-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #888;
+}
+
+/* Login button */
+.login-button {
+    width: 90%;
+    max-width: 320px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.login-button:hover {
+    background-color: #333;
+}
+
+/* Links */
+.links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.signup {
+    font-weight: bold;
+}
