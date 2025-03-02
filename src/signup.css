@@ -1,63 +1,86 @@
 .signup-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #2ecc71;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #21ddb0;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.logo-container img {
+  width: 120px; /* Increased size */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+.app-name {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background: white;
+  width: 320px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.input-icon {
+  color: #4caf50;
+  margin-right: 10px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.signup-button {
+  width: 320px;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #ffc107;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-button:hover {
+  background: #ffb300;
+}
+
+.links {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.links a {
+  color: #ffd54f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+  .input-container, .signup-button {
+    width: 90%;
   }
-  
-  .logo-container img {
-    width: 100px;
-    margin-bottom: 20px;
-  }
-  
-  .app-name {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-  }
-  
-  .input-container {
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    width: 80%;
-    margin: 10px 0;
-  }
-  
-  .input-icon {
-    margin-right: 10px;
-    color: #27ae60;
-  }
-  
-  input {
-    border: none;
-    outline: none;
-    width: 100%;
-  }
-  
-  .signup-button {
-    background-color: #27ae60;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 80%;
-    margin-top: 20px;
-  }
-  
-  .links {
-    margin-top: 20px;
-    color: white;
-  }
-  
-  .links a {
-    color: #fff;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  
+}

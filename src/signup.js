@@ -14,7 +14,7 @@ const Signup = () => {
   return (
     <div className="signup-container">
       <div className="logo-container">
-        <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="DavaBuddy Logo" />
+        <img src="{/halflogo.png}" alt="DavaBuddy Logo" />
       </div>
       <h2 className="app-name">Sign Up</h2>
 
@@ -38,7 +38,14 @@ const Signup = () => {
       </button>
 
       <div className="links">
-        <p>Already have an account? <span onClick={() => navigate("/login")} style={{ cursor: "pointer", color: "#007bff" }}><strong>Login</strong></span></p>
+        <p>
+          <span 
+            onClick={() => navigate("/login")} 
+            style={{ cursor: "pointer", color: "#007bff" }}
+          >
+            <strong>Already have an account? Login</strong>
+          </span>
+        </p>
       </div>
     </div>
   );

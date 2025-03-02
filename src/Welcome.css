@@ -1,33 +1,65 @@
 .welcome-container {
-    text-align: center;
-    background: #1cc5a3;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-  }
-  
-  .logo {
-    width: 120px;
-    margin: 20px;
-  }
-  
-  .google-signin {
-    background: white;
-    color: black;
-    border: none;
-    padding: 10px 15px;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  .google-icon {
-    width: 20px;
-    margin-right: 10px;
-  }
-  
+  text-align: center;
+  background: #21ddb0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Increase heading sizes */
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.app-name {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Style the tagline with button inline */
+.tagline-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+
+/* Style the tagline text */
+.tagline-text {
+  font-size: 1.8rem;
+}
+
+/* Google Sign-In button should be inline */
+.google-signin {
+  background: white;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: 0.3s ease-in-out;
+
+  /* Ensure button is inline */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-left: px; /* Add some space after "Friendly" */
+}
+
+/* Button hover effect */
+.google-signin:hover {
+  background: #e0e0e0;
+}
+
+/* Make Google icon slightly bigger */
+.google-icon {
+  width: 20px;
+}

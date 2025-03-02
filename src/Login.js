@@ -14,7 +14,7 @@ const Login = () => {
   return (
     <div className="login-container">
       <div className="logo-container">
-        <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="DavaBuddy Logo" />
+        <img src="{/halflogo.png}" alt="DavaBuddy Logo" />
       </div>
       <h2 className="app-name">DAVABUDDY</h2>
       <p className="tagline">Your Friendly Medicine Reminder</p>
