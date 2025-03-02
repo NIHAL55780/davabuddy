@@ -1,0 +1,147 @@
+/* === 🌟 General Styles 🌟 === */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  /* === 🌟 Dashboard Container 🌟 === */
+  .dashboard-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .dashboard-container h2 {
+    font-size: 22px;
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* === 🌟 Form Styles 🌟 === */
+  .medicine-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .medicine-form input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .medicine-form input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* === 🌟 Add Medicine Button 🌟 === */
+  .medicine-form button {
+    background: #28a745;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .medicine-form button:hover {
+    background: #218838;
+  }
+  
+  /* === 🌟 Medicine Table 🌟 === */
+  .medicine-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .medicine-table th,
+  .medicine-table td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .medicine-table th {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .medicine-table tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  .medicine-table td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* === 🌟 Logout Button 🌟 === */
+  .logout-button {
+    background: #dc3545;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .logout-button:hover {
+    background: #c82333;
+  }
+  
+  /* === 🌟 Dark Mode 🌟 === */
+  body.dark-mode {
+    background: #222;
+    color: white;
+  }
+  
+  .dark-mode .dashboard-container {
+    background: #333;
+    color: white;
+  }
+  
+  .dark-mode .medicine-table th {
+    background: #007bff;
+  }
+  
+  .dark-mode .medicine-table tr:nth-child(even) {
+    background: #444;
+  }
+  
+  /* === 🌟 Dark Mode Toggle Button 🌟 === */
+  .dark-mode-toggle {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .dark-mode-toggle:hover {
+    background: #444;
+  }
+  
