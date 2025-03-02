@@ -8,7 +8,7 @@ const Login = () => {
 
   const handleLogin = () => {
     console.log("Login successful!");
-    navigate("/dashboard"); // Navigate after login
+    navigate("/main_dashboard"); // Navigate after login
   };
 
   return (
