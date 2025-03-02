@@ -49,7 +49,7 @@ const Dashboard = () => {
 
       
       <div className="medicine-reminder">
-        <img src={`${process.env.PUBLIC_URL}/calendar-icon.jpg`} alt="Calendar" className="calendar-icon" />
+        <img src={'/calender-icon.jpg'} alt="Calendar" className="calendar-icon" />
         <h2>Monitor your med schedule</h2>
         <p>View your daily schedule and mark your meds when taken</p>
       </div>
